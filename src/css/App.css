@@ -27,6 +27,7 @@ body {
   gap: 10px;
   background-color: #F55A5A;
   margin-top: 3em;
+  padding: 1em 0;
 }
 
 .header-logo {
@@ -36,4 +37,71 @@ body {
 
 .header-text {
   color: #FFFFFF;
+  font-size: .9rem;
+  font-weight: 400;
+}
+
+.main-section {
+  display: flex;
+  border-bottom: 1px solid #F5F5F5;
+  padding: 2em 1em;
+  margin: 0 auto;
+}
+
+.main-section:last-child {
+  border-bottom: none;
+}
+
+.main-section-image {
+  width: 125px;
+  height: 168px;
+  object-fit: fill;
+  border-radius: 10px;
+}
+
+.main-info {
+  margin-left: 1em;
+}
+
+.main-location-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  margin-top: .5em;
+}
+
+.main-location-icon {
+  color: #F55A5A;
+  font-size: .64rem;
+}
+
+.main-location {
+  text-transform: uppercase;
+  font-size: .64rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 1em;
+}
+
+.main-location-link {
+  font-size: .64rem;
+  margin-left: .75em;
+  color: #918E9B;
+}
+
+.main-location-title {
+  font-weight: 700;
+  font-size: 1.5625rem;
+  margin-top: 0;
+}
+
+.main-location-date {
+  font-weight: 700;
+  font-size: .64rem;
+}
+
+.main-location-description {
+  font-weight: 400;
+  font-size: .64rem;
+  width: 326px;
 }
