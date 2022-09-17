@@ -16,6 +16,7 @@ body {
 
 .container {
   width: 550px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -53,9 +54,8 @@ body {
 }
 
 .main-section-image {
-  width: 125px;
-  height: 168px;
-  object-fit: fill;
+  width: 25%;
+  object-fit: cover;
   border-radius: 10px;
 }
 
