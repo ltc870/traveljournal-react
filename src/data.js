@@ -17,7 +17,7 @@ export default [
         endDate: "8 Jun, 2021",
         description:
             "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of Sydney Harbour, it is often regarded as one of the 20th century's most famous distinctive buildings.",
-        imageUrl: "https://bit.ly/3LsPo9d",
+        imageUrl: "https://source.unsplash.com/JmuyB_LibRo",
     },
     {
         title: "Geirangerfjord",
@@ -27,6 +27,6 @@ export default [
         endDate: "18 Nov, 2021",
         description:
             "The Geiranger Fjord is a fjord in the Sunnnmore region of Moreog Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
-        imageUrl: "https://bit.ly/3qNE5it",
+        imageUrl: "https://source.unsplash.com/3PeSjpLVtLg",
     },
 ];
