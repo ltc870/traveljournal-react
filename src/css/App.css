@@ -13,3 +13,27 @@ body {
   padding: 0;
   font-family: Inter, sans-serif;
 }
+
+.container {
+  width: 550px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #F55A5A;
+  margin-top: 3em;
+}
+
+.header-logo {
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
+.header-text {
+  color: #FFFFFF;
+}
